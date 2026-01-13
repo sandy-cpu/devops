@@ -44,7 +44,7 @@ coffeshop-app/ios/Flutter/Flutter.framework
 coffeshop-app/ios/Flutter/Flutter.podspec
 coffeshop-app/.pub-cache/
 coffeshop-app/.pub/
-*.lock
+pubspec.lock
 
 # Gradle
 .gradle/
@@ -56,3 +56,6 @@ local.properties
 *.tmp
 *.temp
 coverage/
+
+# Keep package-lock.json (remove from ignore)
+!package-lock.json
