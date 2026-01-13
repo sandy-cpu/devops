@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build
+.next/
+out/
+build/
+dist/
+*.js.map
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter
+coffeshop-app/.dart_tool/
+coffeshop-app/.packages
+coffeshop-app/build/
+coffeshop-app/.flutter-plugins
+coffeshop-app/.flutter-plugins-dependencies
+coffeshop-app/android/.gradle/
+coffeshop-app/android/local.properties
+coffeshop-app/ios/Pods/
+coffeshop-app/ios/.symlinks/
+coffeshop-app/ios/Flutter/Flutter.framework
+coffeshop-app/ios/Flutter/Flutter.podspec
+coffeshop-app/.pub-cache/
+coffeshop-app/.pub/
+*.lock
+
+# Gradle
+.gradle/
+local.properties
+*.iml
+
+# Misc
+*.log
+*.tmp
+*.temp
+coverage/
