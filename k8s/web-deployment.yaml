@@ -20,7 +20,7 @@ spec:
       containers:
         - name: coffeeshop-web
           image: coffeeshop-web:latest
-          imagePullPolicy: Always
+          imagePullPolicy: Never
           ports:
             - containerPort: 3000
               protocol: TCP

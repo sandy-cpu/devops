@@ -39,3 +39,13 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# iOS Flutter generated files (contains local paths)
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/.symlinks/
+ios/Pods/
+
+# Android local properties
+android/local.properties
